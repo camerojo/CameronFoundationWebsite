@@ -10,7 +10,7 @@ img.logo {
 
 h1.logo {
 	
-	font-size: 2em; line-height: 1; color: #333;
+	font-size: 2em; line-height: 1; color: #555;
 }
 
 div#header {
@@ -29,46 +29,244 @@ div#header {
 	margin-bottom: 20px;
 }
 
+
+
+div.header-quote {
+	
+	font-size: 4.2em;
+	color: #F0F8FF;
+	vertical-align: middle;
+	float: left;
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
 blockquote.header {
 
 	border-left: none;
-	padding-bottom: 0.2em;
-	
-}
-
-
-blockquote p {
-	
-	color: #333;
 }
 
 p.header {
 	
-	color: #F0F8FF; font-size: 1.5em; 
+	color: #F0F8FF;
+	font-size: 1.5em; 
 	line-height: 1.75; 
-	margin-top: 0.4em;
+	margin-top: 0.2em;
 	margin-bottom: 0.25em;
+	margin-left: 2em;
 }
 
-span.header-quote {
-	
-	font-size: 2.25em;
-	margin-right:0.1em;
-	margin-left: 0;
-	vertical-align: middle;
-	line-height: 0;
-}
+
 
 cite.header {
 	
 	color: #F0F8FF;
-	font-size: 1.0em;
-	padding-left: 2em;
+	font-size: 1.1em;
+	margin-left: 2.75em;
 	
 }
 
-h1, h2, h3, h4, h5 {color: #333;}
 
+blockquote, blockquote p {
+	
+	color: #333;
+	font-size: 15px;
+}
+
+
+
+h1, h2, h3, h4, h5 {color: #555;}
+
+h2 {
+	
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p {
+	
+	padding-right: 20px;
+}
+
+.quiet {
+	color: #777;
+}
+
+
+cite a {
+	
+	font-style: italic;
+}
+
+blockquote {
+
+	color: #444;
+}
+
+ul.circle {
+	margin-bottom: 2em;
+	margin-left: 1em;
+}
+
+li {
+	line-height: 1.75;
+}
+
+img.charity-logo {
+	
+	float: left;
+	margin: 5px 25px 10px 0;	
+
+}
+
+a,
+#nav a {
+    text-decoration: none;
+    color: #222;
+    border-bottom: 1px #999 solid;
+}
+
+a:hover,
+#nav a:hover {
+	background-color: #cae3f6;
+	text-decoration: none;
+}
+
+ul.sub {
+	margin-top: 0.75em;
+	margin-bottom: 0;
+}
+
+
+h1.annual-report {
+	
+	font-size: 2.5em;
+}
+
+div.total-donations {
+	
+	margin-bottom: 2em;
+	background: #1c87c4; /* Old browsers */
+	background: -moz-linear-gradient(top, #1c87c4 0%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c87c4), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #1c87c4 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #1c87c4 0%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #1c87c4 0%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #1c87c4 0%,#7db9e8 100%); /* W3C */
+	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c87c4', endColorstr='#7db9e8',GradientType=0 ); */ /* IE6-9 */
+
+	
+}
+
+p.total-donations {
+	
+	font-family: "Georgia", "Times New Roman", serif;
+	font-size: 1.75em;
+	line-height: 2;
+	color: #F0F8FF;
+	margin: 0.2em 1em 0 1em;
+	text-align: center;
+}
+
+p.total-donations-amount {
+	font-family: "Georgia", "Times New Roman", serif;
+	font-size: 2em;
+	line-height: 1.4;
+	color: #F0F8FF;
+	margin:  0.2em 0.75em 1em;
+	text-align: center;
+}
+
+body#annual-report h2 {
+	
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	line-height: 1.5;
+}
+
+body#annual-report h2 a,
+body#annual-report h3 a {
+	
+	color: #555;
+}
+
+body#annual-report h3 {
+	margin-left: 15px;
+}
+
+body#annual-report h3 {
+	font-size: 1.2em;
+	margin-bottom: -0.5em;
+	line-height: 1.3;
+}
+
+table {margin-bottom: 2em;}
+
+th.amount {
+	
+	width: 5em;
+	text-align: left;
+	color: #444;
+}
+
+th.recipient {
+	text-align: left;
+	color: #444;
+}
+
+tr {line-height: 1.75;}
+
+
+p.DonationAmount {
+	
+	font-size: 1.2em;
+	color: #444;
+	margin-top: 0;
+	line-height: 1.75;
+}
+
+p.DonationDate {
+	
+	font-size: 1em;
+	color: #555;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	line-height: 1.5;
+}
+
+p.Sub-DonationDate {
+	font-size: 1em;
+	color: #555;
+	margin-top: 1em;
+	margin-left: 15px;
+	margin-bottom: -0.5em;
+	line-height: 1.5;
+}
+
+p.Sub-DonationAmount {
+	
+	font-size: 1em;
+	color: #444;
+	margin-top: 1em;
+	margin-left: 15px;
+	line-height: 1.5;
+}
+
+
+
+div.report-nav {
+	padding-top: 0.5em;
+	text-align: center;
+	font-size: 0.9em;
+	color: #555;
+}
+
+div.report-nav a {
+	color: #555;
+}
 
 
 /* #Media Queries
@@ -96,24 +294,37 @@ h1, h2, h3, h4, h5 {color: #333;}
 		}
 
 		
-		p.header {
-			font-size: 1.0em;
-			line-height: 1.35;
-			margin-bottom: 0.5em;
-		}
 	
-		span.header-quote {
-			font-size: 2em;
-		}
+		div.header-quote {
 	
-		cite.header {
-			font-size: 0.7em;
-			padding-left: 1.75em;
+			font-size: 3.2em;
+			color: #F0F8FF;
+			vertical-align: middle;
+			float: left;
+			margin-top: 15px;
 		}
 		
+		p.header {
+			font-size: 1.1em;
+			line-height: 1.35;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+			margin-left: 2em;
+		}
+		
+		cite.header {
+			font-size: 0.9em;
+			margin-left: 2.4em;
+		}
+		
+				
 		h1 {font-size: 2em; line-height: 1.1;}
 		h2 {font-size: 1.7em; line-height: 1.1;}
-		h3 {font-size: 1.5em; line-height: 1.2;}
+		h3 {font-size: 1.4em; line-height: 1.2;}
+		
+		h1.annual-report {font-size: 1.75em; line-height: 1.1;}
+		
+		div.report-nav {padding-top: 1em;}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -128,22 +339,35 @@ h1, h2, h3, h4, h5 {color: #333;}
 			padding-bottom: 0;
 		}
 			
-		p.header {
-			font-size: 1.0em;
-			line-height: 1.35;
-			margin-bottom: 0.5em;
+		
+		
+		div.header-quote {
+	
+			font-size: 3.2em;
+			color: #F0F8FF;
+			vertical-align: middle;
+			float: left;
+			margin-top: 15px;
 		}
 		
-		span.header-quote {
-			font-size: 2em;
+		p.header {
+			font-size: 1.1em;
+			line-height: 1.35;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+			margin-left: 2em;
 		}
 		
 		cite.header {
-			font-size: 0.7em;
-			padding-left: 1.75em;
+			font-size: 0.9em;
+			margin-left: 2.4em;
 		}
 		
 		h1 {font-size: 2em; line-height: 1.1;}
 		h2 {font-size: 1.7em; line-height: 1.1;}
-		h3 {font-size: 1.5em; line-height: 1.2;}
+		h3 {font-size: 1.4em; line-height: 1.2;}
+		
+		h1.annual-report {font-size: 1.75em; line-height: 1.1;}
+		
+		div.report-nav {padding-top: 1em;}
 	}
